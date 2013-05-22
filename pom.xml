@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.axiomalaska</groupId>
+  <artifactId>ioos-sos-common</artifactId>
+  <version>0.1-SNAPSHOT</version>
+  <name>IOOS SOS Common</name>
+  <description>Shared IOOS SOS resources</description>
+  <packaging>jar</packaging>
+
+  <licenses>
+    <license>
+      <name>GNU Lesser General Public License</name>
+      <url>http://www.gnu.org/licenses/lgpl.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <distributionManagement>
+    <repository>
+      <id>axiom_public_releases</id>
+      <name>Axiom Releases</name>
+      <uniqueVersion>false</uniqueVersion>
+      <url>
+        http://nexus.axiomalaska.com/nexus/content/repositories/public-releases
+      </url>
+    </repository>
+    <snapshotRepository>
+      <id>axiom_public_snapshots</id>
+      <name>Axiom Snapshots</name>
+      <uniqueVersion>false</uniqueVersion>
+      <url>
+        http://nexus.axiomalaska.com/nexus/content/repositories/public-snapshots
+      </url>
+    </snapshotRepository>
+  </distributionManagement>
+
+  <scm>
+    <connection>scm:git:git://github.com/axiomalaska/ioos-sos-common.git</connection>
+    <url>scm:git:git://github.com/axiomalaska/ioos-sos-common.git</url>
+    <developerConnection>scm:git:git://github.com/axiomalaska/ioos-sos-common.git</developerConnection>
+  </scm>  
+
+  <developers>
+    <developer>
+      <id>shane-axiom</id>
+      <name>Shane StClair</name>
+      <email>shane@axiomalaska.com</email>
+    </developer>
+  </developers>
+
+  <issueManagement>
+    <url>https://github.com/axiomalaska/phenomena/issues</url>
+    <system>GitHub</system>
+  </issueManagement>
+
+  <repositories>
+    <repository>
+      <id>n52-releases</id>
+      <name>52n Releases</name>
+      <url>http://52north.org/maven/repo/releases</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>n52-snapshots</id>
+      <name>52n Snapshots</name>
+      <url>http://52north.org/maven/repo/snapshots</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.4</version>
+        <configuration>
+          <source>1.6</source>
+          <target>1.6</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+    
+  <dependencies>
+    <dependency>
+      <groupId>com.axiomalaska</groupId>
+      <artifactId>cf4j</artifactId>
+      <version>23.0</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.8.1</version>
+      <scope>test</scope>
+    </dependency>    
+  </dependencies>
+</project>
