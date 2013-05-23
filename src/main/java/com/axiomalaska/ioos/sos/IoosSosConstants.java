@@ -1,102 +1,105 @@
-/**
- * Copyright (C) 2013
- * by 52 North Initiative for Geospatial Open Source Software GmbH
- *
- * Contact: Andreas Wytzisk
- * 52 North Initiative for Geospatial Open Source Software GmbH
- * Martin-Luther-King-Weg 24
- * 48155 Muenster, Germany
- * info@52north.org
- *
- * This program is free software; you can redistribute and/or modify it under
- * the terms of the GNU General Public License version 2 as published by the
- * Free Software Foundation.
- *
- * This program is distributed WITHOUT ANY WARRANTY; even without the implied
- * WARRANTY OF MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License along with
- * this program (see gnu-gpl v2.txt). If not, write to the Free Software
- * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA or
- * visit the Free Software Foundation web page, http://www.fsf.org.
- */
 package com.axiomalaska.ioos.sos;
 
-public interface IoosSosConstants {
+public class IoosSosConstants {
     // version
-    String IOOS_VERSION_TITLE = "ioosTemplateVersion";
-    String IOOS_VERSION_DEFINITION = "http://code.google.com/p/ioostech/source/browse/#svn%2Ftrunk%2Ftemplates%2FMilestone1.0";
-    String IOOS_VERSION_M10 = "1.0";
+    public static String IOOS_VERSION_TITLE = "ioosTemplateVersion";
+    public static String IOOS_VERSION_DEFINITION = "http://code.google.com/p/ioostech/source/browse/#svn%2Ftrunk%2Ftemplates%2FMilestone1.0";
+    public static String IOOS_VERSION_M10 = "1.0";
 
-    String OM_PROFILE_PATTERN = "text/xml;subtype=\"om/1.0.0/profiles/ioos_sos/%s\"";
-    String SML_PROFILE_PATTERN = "text/xml;subtype=\"sensorML/1.0.1/profiles/ioos_sos/%s\"";
+    public static String OM_PROFILE_PATTERN = "text/xml;subtype=\"om/1.0.0/profiles/ioos_sos/%s\"";
+    public static String SML_PROFILE_PATTERN = "text/xml;subtype=\"sensorML/1.0.1/profiles/ioos_sos/%s\"";
 
-    String OM_PROFILE_M10 = String.format(OM_PROFILE_PATTERN, IOOS_VERSION_M10);
-    String SML_PROFILE_M10 = String.format(SML_PROFILE_PATTERN,
+    public static String OM_PROFILE_M10 = String.format(OM_PROFILE_PATTERN, IOOS_VERSION_M10);
+    public static String SML_PROFILE_M10 = String.format(SML_PROFILE_PATTERN,
             IOOS_VERSION_M10);
 
-    String SRS_URL_PREFIX = "http://www.opengis.net/def/crs/EPSG/0/";
-    String PLATFORM_LOCATION_URL = "http://www.opengis.net/def/property/OGC/0/PlatformLocation";
+    public static String SRS_URL_PREFIX = "http://www.opengis.net/def/crs/EPSG/0/";
+    public static String PLATFORM_LOCATION_URL = "http://www.opengis.net/def/property/OGC/0/PlatformLocation";
 
-    String NETWORK_ID_DEFINITION = "http://mmisw.org/ont/ioos/definition/networkID";
-    String STATION_ID_DEFINITION = "http://mmisw.org/ont/ioos/definition/stationID";
-    String SENSOR_ID_DEFINITION = "http://mmisw.org/ont/ioos/definition/sensorID";
-    String OBSERVATION_TIME_RANGE_DEFINITION = "http://mmisw.org/ont/ioos/definition/observationTimeRange";
+    public static String NETWORK_ID_DEF = "http://mmisw.org/ont/ioos/definition/networkID";
+    public static String STATION_ID_DEF = "http://mmisw.org/ont/ioos/definition/stationID";
+    public static String SENSOR_ID_DEF = "http://mmisw.org/ont/ioos/definition/sensorID";
+    public static String OBSERVATION_TIME_RANGE_DEF = "http://mmisw.org/ont/ioos/definition/observationTimeRange";
 
-    String NETWORK_ID = "networkID";
-    String STATION_ID = "stationID";
-    String SENSOR_ID = "sensorID";
+    public static String NETWORK_ID = "networkID";
+    public static String STATION_ID = "stationID";
+    public static String SENSOR_ID = "sensorID";
     
-    String TIME_LABEL = "time";
-    String SENSOR_DATA_LABEL = "sensorData";
-    String FEATURE_TYPE_LABEL = "featureType";
-
-    String LATITUDE = "latitude";
-    String LONGITUDE = "longitude";
-    String HEIGHT = "height";
-
-    String LAT_DEFINITION = "http://mmisw.org/ont/cf/parameter/latitude";
-    String LNG_DEFINITION = "http://mmisw.org/ont/cf/parameter/longitude";
-    String HEIGHT_DEFINITION = "http://mmisw.org/ont/cf/parameter/height";
-    String LAT_AXIS_ID = "Lat";
-    String LNG_AXIS_ID = "Lon";
-    String HEIGHT_AXIS_ID = "Z";
-    String MMI_CF_PREFIX = "http://mmisw.org/ont/cf/parameter/";
-
-    String DEGREE_UOM = "deg";
-    String METER_UOM = "m";
-
-    String CF_FEATURE_TYPES_CODESPACE = "http://cf-pcmdi.llnl.gov/documents/cf-conventions/1.6/cf-conventions.html#discrete-sampling-geometries";
-
-    String OBSERVED_PROPERTIES_ID_PREFIX = "observedproperties";
-    String SENSOR_NAME = "sensor";
-
-    String DISCLAIMER_TEXT = "DISCLAIMER";
-
-    String PARENT_NETWORK_PROCEDURES_LABEL = "networkProcedures";
-    String PARENT_STATION_PROCEDURE_LABEL = "stationProcedure";
-    String PARENT_NETWORK_FIELD_NAME = "network";
-    String PARENT_STATION_FIELD_NAME = "station";
-    String NETWORK_ALL = "network-all";
-    String OBSERVATION_TIME_RANGE_NAME = "observationTimeRange";
-
+    public static String SHORT_NAME = "shortName";
+    public static String SHORT_NAME_DEF = "http://mmisw.org/ont/ioos/definition/shortName";
+    public static String LONG_NAME = "longName";
+    public static String LONG_NAME_DEF = "http://mmisw.org/ont/ioos/definition/longName";
     
-    String COMPONENT = "component";
-    String STATION = "Station";
-    String SENSOR = "Sensor";
+    public static String WMO_ID = "wmoID";
+    public static String WMO_ID_DEF = "http://mmisw.org/ont/ioos/definition/wmoID";
+    
+    public static String PUBLISHER = "publisher";
+    public static String PUBLISHER_DEF = "http://mmisw.org/ont/ioos/definition/publisher";
+    
+    public static String ORGANIZATION_CODE_SPACE = "http://mmisw.org/ont/ioos/organization";
+    
+    public static String PARENT_NETWORK = "parentNetwork";
+    public static String PARENT_NETWORK_DEF = "http://mmisw.org/ont/ioos/definition/parentNetwork";
+    
+    public static String PLATFORM_TYPE = "platformType";
+    public static String PLATFORM_TYPE_DEF = "http://mmisw.org/ont/ioos/definition/platformType";
+    public static String PLATFORM_CODESPACE = "http://mmisw.org/ont/ioos/platform";
+    
+    public static String OPERATOR_SECTOR = "operatorSector";
+    public static String OPERATOR_SECTOR_DEF = "http://mmisw.org/ont/ioos/definition/operatorSector";
+    public static String SECTOR_CODESPACE = "http://mmisw.org/ont/ioos/sector";
+    
+    public static String SPONSOR = "sponsor";
+    public static String SPONSOR_DEF = "http://mmisw.org/ont/ioos/definition/sponsor";
+    
+    public static String TIME_LABEL = "time";
+    public static String SENSOR_DATA_LABEL = "sensorData";
+    public static String FEATURE_TYPE_LABEL = "featureType";
 
-    String PROCEDURE_OFFERINGS_CAPABILITIES_NAME = "procedureOfferings";
+    public static String LATITUDE = "latitude";
+    public static String LONGITUDE = "longitude";
+    public static String HEIGHT = "height";
 
-    String PUBLISHER = "publisher";
+    public static String LAT_DEFINITION = "http://mmisw.org/ont/cf/parameter/latitude";
+    public static String LNG_DEFINITION = "http://mmisw.org/ont/cf/parameter/longitude";
+    public static String HEIGHT_DEFINITION = "http://mmisw.org/ont/cf/parameter/height";
+    public static String LAT_AXIS_ID = "Lat";
+    public static String LNG_AXIS_ID = "Lon";
+    public static String HEIGHT_AXIS_ID = "Z";
+    public static String MMI_CF_PREFIX = "http://mmisw.org/ont/cf/parameter/";
+
+    public static String DEGREE_UOM = "deg";
+    public static String METER_UOM = "m";
+
+    public static String CF_FEATURE_TYPES_CODESPACE = "http://cf-pcmdi.llnl.gov/documents/cf-conventions/1.6/cf-conventions.html#discrete-sampling-geometries";
+
+    public static String OBSERVED_PROPERTIES_ID_PREFIX = "observedproperties";
+    public static String SENSOR_NAME = "sensor";
+
+    public static String DISCLAIMER_TEXT = "DISCLAIMER";
+
+    public static String PARENT_NETWORK_PROCEDURES_LABEL = "networkProcedures";
+    public static String PARENT_STATION_PROCEDURE_LABEL = "stationProcedure";
+    public static String PARENT_NETWORK_FIELD_NAME = "network";
+    public static String PARENT_STATION_FIELD_NAME = "station";
+    public static String NETWORK_ALL = "network-all";
+    public static String OBSERVATION_TIME_RANGE_NAME = "observationTimeRange";
+
+    public static String COMPONENT = "component";
+    public static String STATION = "Station";
+    public static String SENSOR = "Sensor";
+
+    public static String PROCEDURE_OFFERINGS_CAPABILITIES_NAME = "procedureOfferings";
 
     // swe names
-    String SWE_STATIONS_FIELD_NAME = "stations";
-    String SWE_SENSORS_FIELD_NAME = "sensors";
-    String SWE_PLATFORM_LOCATION_NAME = "platformLocation";
-    String SWE_OBSERVATION_DATA_NAME = "observationData";
-    String SWE_OBSERVATIONS_NAME = "observations";
+    public static String SWE_STATIONS_FIELD_NAME = "stations";
+    public static String SWE_SENSORS_FIELD_NAME = "sensors";
+    public static String SWE_PLATFORM_LOCATION_NAME = "platformLocation";
+    public static String SWE_OBSERVATION_DATA_NAME = "observationData";
+    public static String SWE_OBSERVATIONS_NAME = "observations";
 
-    String IOOS_BUOY_CRS_URL = "https://ioostech.googlecode.com/svn/trunk/IoosCRS/IoosBuoyCRS.xml";
-    String PLATFORM_FRAME = "#PlatformFrame";
+    public static String IOOS_BUOY_CRS_URL = "https://ioostech.googlecode.com/svn/trunk/IoosCRS/IoosBuoyCRS.xml";
+    public static String PLATFORM_FRAME = "#PlatformFrame";
+    
+    public static String EPSG_4326_DEF = "http://www.opengis.net/def/crs/EPSG/0/4326";
 }
