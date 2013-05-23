@@ -44,8 +44,10 @@ public interface IoosSosConstants {
     String SENSOR_ID_DEFINITION = "http://mmisw.org/ont/ioos/definition/sensorID";
     String OBSERVATION_TIME_RANGE_DEFINITION = "http://mmisw.org/ont/ioos/definition/observationTimeRange";
 
+    String NETWORK_ID = "networkID";
     String STATION_ID = "stationID";
     String SENSOR_ID = "sensorID";
+    
     String TIME_LABEL = "time";
     String SENSOR_DATA_LABEL = "sensorData";
     String FEATURE_TYPE_LABEL = "featureType";
