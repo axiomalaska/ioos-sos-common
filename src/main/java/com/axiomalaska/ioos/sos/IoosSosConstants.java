@@ -14,6 +14,8 @@ public class IoosSosConstants {
             IOOS_VERSION_M10);
 
     public static String SRS_URL_PREFIX = "http://www.opengis.net/def/crs/EPSG/0/";
+    public static String EPSG_4326_DEF = SRS_URL_PREFIX + 4326;
+    
     public static String PLATFORM_LOCATION_URL = "http://www.opengis.net/def/property/OGC/0/PlatformLocation";
 
     public static String NETWORK_ID_DEF = "http://mmisw.org/ont/ioos/definition/networkID";
@@ -101,5 +103,6 @@ public class IoosSosConstants {
     public static String IOOS_BUOY_CRS_URL = "https://ioostech.googlecode.com/svn/trunk/IoosCRS/IoosBuoyCRS.xml";
     public static String PLATFORM_FRAME = "#PlatformFrame";
     
-    public static String EPSG_4326_DEF = "http://www.opengis.net/def/crs/EPSG/0/4326";
+    public static String TIME_DEF = "http://www.opengis.net/def/property/OGC/0/PhenomenonTime";
+    public static String GREGORIAN_DEF = "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian";
 }
