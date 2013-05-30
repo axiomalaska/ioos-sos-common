@@ -91,7 +91,9 @@ public class IoosSosConstants {
     public static String STATION = "Station";
     public static String SENSOR = "Sensor";
 
-    public static String PROCEDURE_OFFERINGS_CAPABILITIES_NAME = "procedureOfferings";
+    // special capabilities names
+    public static String OFFERINGS = "offerings";
+    public static String PARENT_PROCEDURES = "parentProcedures";
 
     // swe names
     public static String SWE_STATIONS_FIELD_NAME = "stations";
