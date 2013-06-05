@@ -95,6 +95,22 @@ public class IoosSosConstants {
     public static String OFFERINGS = "offerings";
     public static String PARENT_PROCEDURES = "parentProcedures";
 
+    // subsensor names
+    public static String PROFILE_HEIGHTS = "profileHeights";
+    public static String PROFILE_HEIGHTS_DEFINITION = "http://mmisw.org/ont/ioos/definition/profileHeights";
+    public static String PROFILE_DEFINITION_LABEL = "profileDefinition";
+    public static String PROFILE_BINS = "profileBins";
+    public static String PROFILE_BINS_DEFINITION = "http://mmisw.org/ont/ioos/definition/profileBins";
+    public static String PROFILE_BIN_DESCRIPTION = "profileBinDescription";
+    public static String BIN_CENTER = "binCenter";
+    public static String BIN_EDGES = "binEdges";
+    public static String PROFILE_BIN_EDGES_DEFINITION = "http://mmisw.org/ont/ioos/definition/profileBinEdges";
+    
+    public static String SENSOR_LOCATION_LABEL = "sensorLocation";
+    public static String SENSOR_LOCATION_DEFINITION = "http://www.opengis.net/def/property/OGC/0/SensorLocation";
+    public static String LOCATION_REFERENCE_FRAME = "http://www.opengis.net/def/crs-compound?"
+            + "1=http://www.opengis.net/def/crs/EPSG/0/4326&amp;"
+            + "2=http://www.opengis.net/def/crs/EPSG/0/5829";
     // swe names
     public static String SWE_STATIONS_FIELD_NAME = "stations";
     public static String SWE_SENSORS_FIELD_NAME = "sensors";
@@ -102,9 +118,8 @@ public class IoosSosConstants {
     public static String SWE_OBSERVATION_DATA_NAME = "observationData";
     public static String SWE_OBSERVATIONS_NAME = "observations";
 
-    public static String IOOS_BUOY_CRS_URL = "https://ioostech.googlecode.com/svn/trunk/IoosCRS/IoosBuoyCRS.xml";
-    public static String PLATFORM_FRAME = "#PlatformFrame";
+    public static String LOCAL_FRAME_SUFFIX = "_frame";
     
     public static String TIME_DEF = "http://www.opengis.net/def/property/OGC/0/PhenomenonTime";
-    public static String GREGORIAN_DEF = "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian";
+    public static String GREGORIAN_DEF = "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"; 
 }
