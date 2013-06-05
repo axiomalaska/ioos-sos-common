@@ -118,7 +118,7 @@ public class IoosSosConstants {
     public static String SWE_OBSERVATION_DATA_NAME = "observationData";
     public static String SWE_OBSERVATIONS_NAME = "observations";
 
-    public static String LOCAL_FRAME_SUFFIX = "_frame";
+    public static String FRAME_SUFFIX = "_frame";
     
     public static String TIME_DEF = "http://www.opengis.net/def/property/OGC/0/PhenomenonTime";
     public static String GREGORIAN_DEF = "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"; 
