@@ -121,5 +121,7 @@ public class IoosSosConstants {
     public static String FRAME_SUFFIX = "_frame";
     
     public static String TIME_DEF = "http://www.opengis.net/def/property/OGC/0/PhenomenonTime";
-    public static String GREGORIAN_DEF = "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"; 
+    public static String GREGORIAN_DEF = "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian";
+    
+    public static String UDUNITS_URN_PREFIX = "urn:ogc:def:uom:udunits:2:";
 }
