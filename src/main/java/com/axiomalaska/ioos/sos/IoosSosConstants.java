@@ -16,7 +16,7 @@ public class IoosSosConstants {
     public static final String EPSG_4326_DEF = SRS_URL_PREFIX + 4326;
 
     public static final String LOCATION_REFERENCE_FRAME = "http://www.opengis.net/def/crs-compound?"
-            + "1=http://www.opengis.net/def/crs/EPSG/0/4326&amp;"
+            + "1=http://www.opengis.net/def/crs/EPSG/0/4326&"
             + "2=http://www.opengis.net/def/crs/EPSG/0/5829";
     
     public static final String ORGANIZATION_ONTOLOGY = "http://mmisw.org/ont/ioos/organization";
