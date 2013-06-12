@@ -4,18 +4,18 @@ import java.util.Arrays;
 import java.util.List;
 
 import com.axiomalaska.cf4j.CFStandardNames;
-import com.axiomalaska.ioos.sos.IoosSosConstants;
+import com.axiomalaska.ioos.sos.IoosCfConstants;
 
 public class AxisUtil {        
     public static final List<String> LNG_NAMES = Arrays.asList( new String[]{
         CFStandardNames.LONGITUDE.getName()
-       ,IoosSosConstants.LNG_DEFINITION
+       ,IoosCfConstants.LONGITUDE_DEF
        ,AxisType.LNG.name()
     });
 
     public static final List<String> LAT_NAMES = Arrays.asList( new String[]{
         CFStandardNames.LATITUDE.getName()
-       ,IoosSosConstants.LAT_DEFINITION        
+       ,IoosCfConstants.LATITUDE_DEF        
        ,AxisType.LAT.name()
     });
 
@@ -28,7 +28,7 @@ public class AxisUtil {
     public static final List<String> HEIGHT_NAMES = Arrays.asList( new String[]{
         CFStandardNames.HEIGHT.getName()
        ,CFStandardNames.HEIGHT_ABOVE_REFERENCE_ELLIPSOID.getName()
-       ,IoosSosConstants.HEIGHT_DEFINITION       
+       ,IoosCfConstants.HEIGHT_DEF       
        ,AxisType.Z.name()
     });
     
