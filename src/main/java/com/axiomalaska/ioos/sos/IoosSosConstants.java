@@ -59,4 +59,7 @@ public class IoosSosConstants {
     public static final String GREGORIAN_DEF = "http://www.opengis.net/def/uom/ISO-8601/0/Gregorian";
     
     public static final String UDUNITS_URN_PREFIX = "urn:ogc:def:uom:udunits:2:";
+    
+    /** special dummy item to get around swe:DataChoice's item 2..* requirement */
+    public static final String DUMMY_ITEM = "dummy_item";
 }
