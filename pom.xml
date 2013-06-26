@@ -10,10 +10,10 @@
 
   <licenses>
     <license>
-      <name>GNU Lesser General Public License</name>
-      <url>http://www.gnu.org/licenses/lgpl.html</url>
+      <name>Unlicense (public domain)</name>
+      <url>http://unlicense.org/UNLICENSE</url>
       <distribution>repo</distribution>
-    </license>
+    </license>  
   </licenses>
 
   <distributionManagement>
