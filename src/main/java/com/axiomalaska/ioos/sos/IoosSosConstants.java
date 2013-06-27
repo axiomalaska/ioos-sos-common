@@ -1,6 +1,14 @@
 package com.axiomalaska.ioos.sos;
 
 public class IoosSosConstants {
+    //sos constants
+    public static final String SOS_V1 = "1.0.0";
+    public static final String NONE = "NONE";
+    
+    //service identification
+    public static final String SI_SERVICE_TYPE = "OGC:SOS";
+    public static final String SI_SERVICE_TYPE_CODE_SPACE = "http://opengeospatial.net";
+    
     // version
     public static final String IOOS_SERVICE_METADATA = "ioosServiceMetadata";
     public static final String IOOS_TEMPLATE_VERSION = "ioosTemplateVersion";
