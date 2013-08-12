@@ -31,6 +31,9 @@ public class IoosDefConstants {
     public static final String PLATFORM_TYPE = "platformType";
     public static final String PLATFORM_TYPE_DEF = IOOS_DEF_PREFIX + PLATFORM_TYPE;
 
+    public static final String OPERATOR = "operator";
+    public static final String OPERATOR_DEF = IOOS_DEF_PREFIX + OPERATOR;
+    
     public static final String OPERATOR_SECTOR = "operatorSector";
     public static final String OPERATOR_SECTOR_DEF = IOOS_DEF_PREFIX + OPERATOR_SECTOR;
     
