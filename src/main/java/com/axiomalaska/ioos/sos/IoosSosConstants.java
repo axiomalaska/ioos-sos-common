@@ -11,10 +11,11 @@ public class IoosSosConstants {
     
     // version
     public static final String IOOS_SERVICE_METADATA = "ioosServiceMetadata";
-    public static final String IOOS_TEMPLATE_VERSION = "ioosTemplateVersion";
+    public static final String IOOS_TEMPLATE_VERSION = "ioosTemplateVersion";    
     public static final String IOOS_VERSION_DEFINITION = "http://code.google.com/p/ioostech/source/browse/#svn%2Ftrunk%2Ftemplates%2FMilestone1.0";
     public static final String IOOS_VERSION_M10 = "1.0";
-
+    public static final String SOFTWARE_VERSION = "softwareVersion";
+    
     public static final String OM_PROFILE_PATTERN = "text/xml;subtype=\"om/1.0.0/profiles/ioos_sos/%s\"";
     public static final String SML_PROFILE_PATTERN = "text/xml;subtype=\"sensorML/1.0.1/profiles/ioos_sos/%s\"";
 
