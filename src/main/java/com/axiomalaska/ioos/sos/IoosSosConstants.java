@@ -16,11 +16,16 @@ public class IoosSosConstants {
     public static final String IOOS_VERSION_M10 = "1.0";
     public static final String SOFTWARE_VERSION = "softwareVersion";
     
-    public static final String OM_PROFILE_PATTERN = "text/xml; subtype=\"om/1.0.0/profiles/ioos_sos/%s\"";
-    public static final String SML_PROFILE_PATTERN = "text/xml; subtype=\"sensorML/1.0.1/profiles/ioos_sos/%s\"";
+    public static final String OM_SUBTYPE_PATTERN = "om/1.0.0/profiles/ioos_sos/%s";
+    public static final String SML_SUBTYPE_PATTERN = "sensorML/1.0.1/profiles/ioos_sos/%s";
+    
+    public static final String XML_SUBTYPE_PATTERN = "text/xml; subtype=\"%s\"";
+    
+    public static final String OM_SUBTYPE_M10 = String.format(OM_SUBTYPE_PATTERN, IOOS_VERSION_M10);
+    public static final String SML_SUBTYPE_M10 = String.format(SML_SUBTYPE_PATTERN, IOOS_VERSION_M10);
 
-    public static final String OM_PROFILE_M10 = String.format(OM_PROFILE_PATTERN, IOOS_VERSION_M10);
-    public static final String SML_PROFILE_M10 = String.format(SML_PROFILE_PATTERN, IOOS_VERSION_M10);
+    public static final String OM_PROFILE_M10 = String.format(XML_SUBTYPE_PATTERN, OM_SUBTYPE_M10);
+    public static final String SML_PROFILE_M10 = String.format(XML_SUBTYPE_PATTERN, SML_SUBTYPE_M10);
 
     public static final String SRS_URL_PREFIX = "http://www.opengis.net/def/crs/EPSG/0/";
     public static final String EPSG_4326_DEF = SRS_URL_PREFIX + 4326;
