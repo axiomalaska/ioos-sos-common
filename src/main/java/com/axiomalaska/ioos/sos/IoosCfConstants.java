@@ -11,5 +11,5 @@ public class IoosCfConstants {
     public static final String LONGITUDE_DEF = CF_DEF_PREFIX + LONGITUDE;
 
     public static final String HEIGHT = "height";
-    public static final String HEIGHT_DEF = CF_DEF_PREFIX + HEIGHT;    
+    public static final String HEIGHT_DEF = CF_DEF_PREFIX + HEIGHT;
 }
