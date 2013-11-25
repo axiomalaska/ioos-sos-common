@@ -1,5 +1,6 @@
 package com.axiomalaska.ioos.sos;
 
+import org.apache.commons.lang3.text.WordUtils;
 import org.n52.sos.ioos.asset.AbstractAsset;
 import org.n52.sos.ioos.asset.SensorAsset;
 import org.n52.sos.ioos.asset.StationAsset;
@@ -36,4 +37,14 @@ public class IoosSosUtil {
             return asset.getAssetId();
         }
     }
+
+    public static final String getNameFromUri(String phenomenonId){
+        String[] uriParts = phenomenonId.split("/|:");
+        return uriParts[uriParts.length - 1];
+    }
+
+    public static final String convertUnderscoredNameToTitleCase(String underscoredName){
+        String lowercaseName = underscoredName.replace('_', ' ');
+        return WordUtils.capitalize( lowercaseName );
+    }    
 }
