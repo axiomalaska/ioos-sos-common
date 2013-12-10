@@ -35,6 +35,9 @@ public abstract class AbstractAsset implements Comparable<AbstractAsset> {
      * @return cleaned input
      */
     protected String cleanInput( String input ){
+        if (input == null) {
+            return null;
+        }
         return input.replace(':', '_');
     }
     
