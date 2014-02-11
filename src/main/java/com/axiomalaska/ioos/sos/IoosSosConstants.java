@@ -74,6 +74,12 @@ public class IoosSosConstants {
     
     public static final String UDUNITS_URN_PREFIX = "urn:ogc:def:uom:udunits:2:";
     
+    public static final String OGC_ROLE_WEB_PAGE = "urn:ogc:def:role:webPage";
+    public static final String OGC_ROLE_OBJECT_IMAGE = "urn:ogc:def:role:objectImage";
+
+    public static final String IOOS_ROLE_QUALITY_CONTROL_DOCUMENT = "qualityControlDocument";
+    public static final String IOOS_ROLE_RSS_FEED = "rssFeed";
+    
     /** special dummy item to get around swe:DataChoice's item 2..* requirement */
     public static final String DUMMY_ITEM = "dummy_item";
 }

@@ -17,6 +17,9 @@ public class GeomHelper {
     }
     
     public static Point createLatLngPoint( Double lat, Double lng, Double height){
+        if (height == null) {
+            return createLatLngPoint(lat, lng);
+        }
         return geomFactory.createPoint(new Coordinate(lng, lat, height));
     }
     
