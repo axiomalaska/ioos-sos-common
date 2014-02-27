@@ -36,9 +36,9 @@
   </distributionManagement>
 
   <scm>
-    <connection>scm:git:git://github.com/axiomalaska/ioos-sos-common.git</connection>
-    <url>scm:git:git://github.com/axiomalaska/ioos-sos-common.git</url>
-    <developerConnection>scm:git:git://github.com/axiomalaska/ioos-sos-common.git</developerConnection>
+    <connection>scm:git:git://github.com/ioos/ioos-sos-common.git</connection>
+    <url>scm:git:git://github.com/ioos/ioos-sos-common.git</url>
+    <developerConnection>scm:git:git://github.com/ioos/ioos-sos-common.git</developerConnection>
   </scm>  
 
   <developers>
@@ -50,7 +50,7 @@
   </developers>
 
   <issueManagement>
-    <url>https://github.com/axiomalaska/phenomena/issues</url>
+    <url>https://github.com/ioos/ioos-sos-common/issues</url>
     <system>GitHub</system>
   </issueManagement>
 
