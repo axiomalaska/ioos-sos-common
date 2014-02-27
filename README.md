@@ -1,4 +1,4 @@
 ioos-sos-common
 ===============
 
-Shared IOOS SOS resources
+Shared IOOS SOS Java resources (constants, helper utilities, etc)
