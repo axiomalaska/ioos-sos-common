@@ -7,11 +7,18 @@ import com.vividsolutions.jts.geom.GeometryFactory;
 import com.vividsolutions.jts.geom.LineString;
 import com.vividsolutions.jts.geom.Point;
 import com.vividsolutions.jts.geom.PrecisionModel;
+import com.vividsolutions.jts.io.WKTWriter;
 
 public class GeomHelper {
+    private static final WKTWriter wktWriter3d = new WKTWriter(3);
+    
     private static final GeometryFactory geomFactory =
             new GeometryFactory( new PrecisionModel(), 4326 );
-    
+
+    public static String toString3d(Geometry geom) {
+        return wktWriter3d.write(geom);
+    }
+
     public static Point createLatLngPoint( Double lat, Double lng){
         return geomFactory.createPoint(new Coordinate(lng, lat));
     }
