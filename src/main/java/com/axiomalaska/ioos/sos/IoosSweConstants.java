@@ -36,10 +36,16 @@ public class IoosSweConstants {
 
     public static final String PROFILE_BINS = "profileBins";
     public static final String PROFILE_BINS_DEF = IOOS_SWE_PREFIX + PROFILE_BINS;
-    
+
+    public static final String PROFILE_BIN = "profileBin";
+    public static final String PROFILE_BIN_DEF = IOOS_SWE_PREFIX + PROFILE_BIN;
+
     public static final String PROFILE_HEIGHTS = "profileHeights";
     public static final String PROFILE_HEIGHTS_DEF = IOOS_SWE_PREFIX + PROFILE_HEIGHTS;
-    
+
+    public static final String PROFILE_HEIGHT = "profileHeight";
+    public static final String PROFILE_HEIGHT_DEF = IOOS_SWE_PREFIX + PROFILE_HEIGHT;
+
     public static final String PROFILE_BIN_EDGES = "profileBinEdges";
     public static final String PROFILE_BIN_EDGES_DEF = IOOS_SWE_PREFIX + PROFILE_BIN_EDGES;
     
