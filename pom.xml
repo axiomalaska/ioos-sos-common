@@ -108,7 +108,7 @@
     <dependency>
       <groupId>com.axiomalaska</groupId>
       <artifactId>cf4j</artifactId>
-      <version>27.0</version>
+      <version>27.2</version>
     </dependency>
     <dependency>
       <groupId>com.vividsolutions</groupId>
