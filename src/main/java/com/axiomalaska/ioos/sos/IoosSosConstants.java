@@ -12,7 +12,7 @@ public class IoosSosConstants {
     // version
     public static final String IOOS_SERVICE_METADATA = "ioosServiceMetadata";
     public static final String IOOS_TEMPLATE_VERSION = "ioosTemplateVersion";    
-    public static final String IOOS_VERSION_DEFINITION = "http://code.google.com/p/ioostech/source/browse/#svn%2Ftrunk%2Ftemplates%2FMilestone1.0";
+    public static final String IOOS_VERSION_DEFINITION = "https://github.com/ioos/sos-guidelines/tree/master/template/milestone1.0";
     public static final String IOOS_VERSION_M10 = "1.0";
     public static final String SOFTWARE_VERSION = "softwareVersion";
     
