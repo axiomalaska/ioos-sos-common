@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.axiomalaska</groupId>
   <artifactId>ioos-sos-common</artifactId>
-  <version>1.0.4</version>
+  <version>1.0.5-SNAPSHOT</version>
   <name>IOOS SOS Common</name>
   <description>Shared IOOS SOS resources</description>
   <packaging>jar</packaging>
@@ -43,7 +43,7 @@
     <connection>scm:git:git@github.com:ioos/ioos-sos-common.git</connection>
     <url>scm:git:git@github.com:ioos/ioos-sos-common.git</url>
     <developerConnection>scm:git:git@github.com:ioos/ioos-sos-common.git</developerConnection>
-    <tag>ioos-sos-common-1.0.4</tag>
+    <tag>HEAD</tag>
   </scm>  
 
   <developers>
