@@ -36,10 +36,9 @@
   </distributionManagement>
 
   <scm>
-    <connection>scm:git:https://github.com/ioos/ioos-sos-common.git</connection>
-    <url>scm:git:https://github.com/ioos/ioos-sos-common.git</url>
-    <developerConnection>scm:git:https://github.com/ioos/ioos-sos-common.git</developerConnection>
-    <tag>HEAD</tag>
+    <connection>scm:git:git@github.com:ioos/ioos-sos-common.git</connection>
+    <url>scm:git:git@github.com:ioos/ioos-sos-common.git</url>
+    <developerConnection>scm:git:git@github.com:ioos/ioos-sos-common.git</developerConnection>
   </scm>  
 
   <developers>
